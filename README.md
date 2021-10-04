@@ -33,3 +33,11 @@ Step 3 => After each image has been shown press ‘q’ for moving and seeing ne
 &nbsp; &nbsp; a) main function is called from main.py where it will read background image and also a threat object from /grab_resized_images/  <br/>
 &nbsp; &nbsp; b) now correction function is performed that is the black pixels which are observing are not absolute zero it is tending to zero. Therefore, this function makes all pixels 0 who has pixels size less than 10. <br/>
 &nbsp; &nbsp; c) Then in placing_threat_object( ) function we are just adding that segmented image of threat to the background image where condtion is that pixels are only added which are not 0 that means only colored object is added to background. <br/>
+
+3) main.py => This file just take care that every background image runs on every threat object image. So, 25 images will be generated. <br/>
+
+# Project Done by -
+Rohit Pawar (Computer Vision Engineer)
+
+
+
