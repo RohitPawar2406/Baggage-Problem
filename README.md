@@ -29,7 +29,7 @@ Step 3 => After each image has been shown press ‘q’ for moving and seeing ne
 &nbsp; &nbsp; c)Grabcut function takes above rectangular co-ordinates and segment given image with the help of masking process.  <br/>
 &nbsp; &nbsp; d)After Segmentation images having a black background , we resize images and save them into / grab_resized_images/ <br/>
 
-2) training.py-> This file work as follows :- 
-&nbsp; &nbsp; a) main function is called from main.py where it will read background image and also a threat object from /grab_resized_images/ 
-&nbsp; &nbsp; b) now correction function is performed that is the black pixels which are observing are not absolute zero it is tending to zero. Therefore, this function makes all pixels 0 who has pixels size less than 10. 
-&nbsp; &nbsp; c) Then in placing_threat_object( ) function we are just adding that segmented image of threat to the background image where condtion is that pixels are only added which are not 0 that means only colored object is added to background. 
+2) training.py-> This file work as follows :- <br/>
+&nbsp; &nbsp; a) main function is called from main.py where it will read background image and also a threat object from /grab_resized_images/  <br/>
+&nbsp; &nbsp; b) now correction function is performed that is the black pixels which are observing are not absolute zero it is tending to zero. Therefore, this function makes all pixels 0 who has pixels size less than 10. <br/>
+&nbsp; &nbsp; c) Then in placing_threat_object( ) function we are just adding that segmented image of threat to the background image where condtion is that pixels are only added which are not 0 that means only colored object is added to background. <br/>
