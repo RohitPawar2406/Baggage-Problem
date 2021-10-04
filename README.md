@@ -20,3 +20,12 @@ Step 1 => Clone the project.
 Step 2 => open terminal and run python main.py 
 
 Step 3 => After each image has been shown press ‘q’ for moving and seeing next images.  
+
+# Description of each python file -  
+
+1) select_threat_object.py -> This file work as follows :-	  <br/>
+
+a)Reading Threat object .  <br/>
+b)Using Mouse event from openCV  , we draw a rectangular box and passing to the Grabcut segmentation process.  <br/>
+c)Grabcut function takes above rectangular co-ordinates and segment given image with the help of masking process.  <br/>
+d)After Segmentation images having a black background , we resize images and save them into / grab_resized_images/ <br/>
