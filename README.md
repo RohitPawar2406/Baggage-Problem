@@ -11,4 +11,4 @@ Background images =>  /background_images/
 # Outputs Images from Program - 
 
 1)Final Outputs => /Assignement_Outputs/  ; 25 outputs images with each background with each threat objects has been placed. <br/>
-2)Images after GrabCut & Cropping operations=> /grab_resized_images/ 
+2)Images after GrabCut & Cropping operations=> /grab_resized_images/ ; Grabcut and Cropping operation has done on all threat objects. 
